@@ -1,0 +1,5 @@
+{
+  "products": [
+    { "id": 1, "name": "Chocolate Cookie", "price": 50 }
+  ]
+}
