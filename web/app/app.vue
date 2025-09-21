@@ -23,6 +23,12 @@ onMounted(async () => {
 <template>
   <div>
     123
+        <h1 class="text-3xl font-bold underline text-blue-200">
+      Hello Tailwind!
+    </h1>
+    <h1 class="text-3xl font-bold underline text-blue-800">
+      Hello Tailwind!
+    </h1>
       <el-button type="danger">Danger</el-button>
 
        <p>{{ counter.count }}</p>

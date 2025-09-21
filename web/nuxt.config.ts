@@ -4,7 +4,16 @@ import { ElementPlusResolver } from "unplugin-vue-components/resolvers";
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
-  modules: ["@nuxt/image", "@nuxt/icon", "@nuxt/fonts", "@element-plus/nuxt",'@pinia/nuxt', 'pinia-plugin-persistedstate/nuxt',],
+  modules: [
+    "@nuxt/image",
+    "@nuxt/icon",
+    "@nuxt/fonts",
+    "@element-plus/nuxt",
+    "@pinia/nuxt",
+    "pinia-plugin-persistedstate/nuxt",
+    "@nuxtjs/tailwindcss",
+  ],
+  css: ["~/assets/css/tailwind.css"],
   vite: {
     plugins: [
       Components({

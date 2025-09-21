@@ -33,9 +33,12 @@ onMounted(async () => {
       <router-link to="/">首页</router-link> |
       <router-link to="/about">关于</router-link>
     </nav>
-     <h1 class="text-3xl font-bold underline text-blue-600">
-    Hello Tailwind!
-  </h1>
+    <h1 class="text-3xl font-bold underline text-blue-200">
+      Hello Tailwind!
+    </h1>
+    <h1 class="text-3xl font-bold underline text-blue-800">
+      Hello Tailwind!
+    </h1>
     <div class="p-4">
       <h1 class="text-xl font-bold">文章列表 (測試用)</h1>
 
