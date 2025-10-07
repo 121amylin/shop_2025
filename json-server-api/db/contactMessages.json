@@ -1,0 +1,94 @@
+{
+  "contactMessages": [
+    {
+      "messageId": "MS10428",
+      "topic": 1,
+      "content": "請問鳳梨酥有低糖版本嗎？家裡長輩怕太甜。",
+      "name": "林美華",
+      "email": "meihua.lin@example.com",
+      "phone": "0912345678",
+      "createdAt": "2025-10-07 09:45"
+    },
+    {
+      "messageId": "MS25761",
+      "topic": 2,
+      "content": "我昨天訂購的中秋禮盒還沒收到出貨通知，想確認狀況。",
+      "name": "黃志強",
+      "email": "chihchiang.huang@example.com",
+      "phone": "0922333444",
+      "createdAt": "2025-10-07 10:12"
+    },
+    {
+      "messageId": "MS68342",
+      "topic": 3,
+      "content": "請問綠豆糕開封後需要冷藏嗎？可以放幾天？",
+      "name": "張佩君",
+      "email": "peijun.chang@example.com",
+      "phone": "0955667788",
+      "createdAt": "2025-10-07 10:58"
+    },
+    {
+      "messageId": "MS90413",
+      "topic": 4,
+      "content": "您好，我是婚禮企劃，想洽談大量訂購客製化喜餅。",
+      "name": "陳怡君",
+      "email": "yijun.chen@example.com",
+      "phone": "0933123456",
+      "createdAt": "2025-10-07 11:20"
+    },
+    {
+      "messageId": "MS51320",
+      "topic": 1,
+      "content": "你們的蛋黃酥內餡是鹹蛋黃還是甜蛋黃？",
+      "name": "劉文彬",
+      "email": "wenbin.liu@example.com",
+      "phone": "0977123456",
+      "createdAt": "2025-10-07 12:05"
+    },
+    {
+      "messageId": "MS74509",
+      "topic": 2,
+      "content": "訂單號 20251006012 顯示已出貨，但宅配尚未更新。",
+      "name": "王家豪",
+      "email": "chiahao.wang@example.com",
+      "phone": "0929988776",
+      "createdAt": "2025-10-07 12:43"
+    },
+    {
+      "messageId": "MS33245",
+      "topic": 3,
+      "content": "請問鳳梨酥冷凍後再加熱會影響口感嗎？",
+      "name": "蕭惠敏",
+      "email": "huimin.hsiao@example.com",
+      "phone": "0988123999",
+      "createdAt": "2025-10-07 13:26"
+    },
+    {
+      "messageId": "MS86297",
+      "topic": 4,
+      "content": "我是地方電視台節目製作人，想邀請貴店接受採訪。",
+      "name": "陳柏宏",
+      "email": "bohong.chen@example.com",
+      "phone": "0933665544",
+      "createdAt": "2025-10-07 13:58"
+    },
+    {
+      "messageId": "MS42156",
+      "topic": 1,
+      "content": "請問你們的鳳梨酥使用哪一種鳳梨？是土鳳梨還是金鑽？",
+      "name": "江靜雯",
+      "email": "chingwen.chiang@example.com",
+      "phone": "0966554433",
+      "createdAt": "2025-10-07 14:40"
+    },
+    {
+      "messageId": "MS70984",
+      "topic": 2,
+      "content": "我填錯收件地址，訂單已成立，可以修改嗎？",
+      "name": "柯柏成",
+      "email": "pocheng.ke@example.com",
+      "phone": "0911778899",
+      "createdAt": "2025-10-07 15:05"
+    }
+  ]
+}
