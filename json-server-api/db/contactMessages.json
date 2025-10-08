@@ -1,5 +1,4 @@
-{
-  "contactMessages": [
+ [
     {
       "messageId": "MS10428",
       "topic": 1,
@@ -91,4 +90,4 @@
       "createdAt": "2025-10-07 15:05"
     }
   ]
-}
+

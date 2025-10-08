@@ -1,5 +1,72 @@
-{
-  "news": [
-    { "id": 1, "title": "新品上市", "content": "我們有新商品囉！" }
-  ]
-}
+[
+  {
+    "title": "中秋節限定鳳梨酥禮盒開賣",
+    "content": "<p>迎接中秋佳節，我們推出限量版鳳梨酥禮盒。<strong>嚴選台灣土鳳梨</strong>，搭配手工奶香餅皮，數量有限，售完為止！</p>",
+    "coverImage": "https://example.com/images/news_moon_festival.jpg",
+    "lastUpdate": "2025-09-15 10:35",
+    "status": 1
+  },
+  {
+    "title": "新品上市：草莓牛軋糖",
+    "content": "<p>粉嫩草莓風味與Q彈口感完美融合，<em>草莓牛軋糖</em>登場！即日起於官網與門市同步販售。</p>",
+    "coverImage": "https://example.com/images/news_strawberry_nougat.jpg",
+    "lastUpdate": "2025-09-20 14:12",
+    "status": 1
+  },
+  {
+    "title": "門市公告：台中店重新開幕",
+    "content": "<p>感謝顧客長期支持，我們的台中門市於10月1日全新開幕，開幕期間享有<em>全館95折優惠</em>！</p>",
+    "coverImage": "https://example.com/images/news_taichung_store.jpg",
+    "lastUpdate": "2025-09-30 09:45",
+    "status": 1
+  },
+  {
+    "title": "端午節禮盒預購開跑",
+    "content": "<p>端午節限定禮盒預購中，<strong>內含綜合手工餅乾與牛軋糖</strong>。數量有限，快來預約！</p>",
+    "coverImage": "https://example.com/images/news_dragonboat.jpg",
+    "lastUpdate": "2025-05-10 13:20",
+    "status": 1
+  },
+  {
+    "title": "母親節蛋糕預購優惠",
+    "content": "<p>母親節蛋糕全面<em>8折起</em>，訂購即贈康乃馨卡片乙張。活動期間至5月5日止。</p>",
+    "coverImage": "https://example.com/images/news_mothersday_cake.jpg",
+    "lastUpdate": "2025-04-20 15:10",
+    "status": 1
+  },
+  {
+    "title": "網站系統維護公告",
+    "content": "<p>為提供更穩定的服務，本網站將於<strong>10月10日 00:00 - 06:00</strong>進行系統維護，期間暫停下單服務。</p>",
+    "coverImage": "https://example.com/images/news_maintenance.jpg",
+    "lastUpdate": "2025-10-05 18:00",
+    "status": 0
+  },
+  {
+    "title": "秋季新品：蜂蜜核桃蛋糕上市",
+    "content": "<p>全新上市！蜂蜜香氣搭配核桃顆粒，<em>濃郁又健康</em>的秋季限定甜點。</p>",
+    "coverImage": "https://example.com/images/news_honey_walnut.jpg",
+    "lastUpdate": "2025-09-28 11:40",
+    "status": 1
+  },
+  {
+    "title": "聖誕節限定禮盒預購中",
+    "content": "<p>聖誕限定款禮盒登場！內含<em>巧克力脆餅、牛軋糖與鳳梨酥</em>，送禮首選。</p>",
+    "coverImage": "https://example.com/images/news_christmas_box.jpg",
+    "lastUpdate": "2025-11-30 10:00",
+    "status": 0
+  },
+  {
+    "title": "手工餅乾新包裝上線",
+    "content": "<p>為提升保存品質與外觀質感，<strong>手工餅乾全系列</strong>採用新包裝！敬請期待～</p>",
+    "coverImage": "https://example.com/images/news_cookie_packaging.jpg",
+    "lastUpdate": "2025-08-10 16:55",
+    "status": 1
+  },
+  {
+    "title": "春節宅配出貨公告",
+    "content": "<p>春節期間出貨時程調整，最後出貨日為<strong>2026年1月25日</strong>，請提前訂購以免延遲。</p>",
+    "coverImage": "https://example.com/images/news_cny_shipping.jpg",
+    "lastUpdate": "2025-12-15 09:20",
+    "status": 1
+  }
+]

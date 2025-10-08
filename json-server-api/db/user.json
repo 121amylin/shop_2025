@@ -1,9 +1,82 @@
-{
-  "users": [
-    {
-      "id": 1,
-      "email": "test@example.com",
-      "password": "123456"
-    }
-  ]
-}
+[
+  {
+    "username": "admin001",
+    "password": "admin@123",
+    "name": "王小明",
+    "email": "ming.wang@example.com",
+    "role": 0,
+    "status": 0
+  },
+  {
+    "username": "admin002",
+    "password": "prod@456",
+    "name": "陳美雲",
+    "email": "mei.chen@example.com",
+    "role": 1,
+    "status": 0
+  },
+  {
+    "username": "admin003",
+    "password": "news@789",
+    "name": "林志安",
+    "email": "an.lin@example.com",
+    "role": 2,
+    "status": 0
+  },
+  {
+    "username": "admin004",
+    "password": "sys@000",
+    "name": "蔡惠文",
+    "email": "huiwen.tsai@example.com",
+    "role": 0,
+    "status": 1
+  },
+  {
+    "username": "admin005",
+    "password": "prod@111",
+    "name": "黃建宏",
+    "email": "jian.huang@example.com",
+    "role": 1,
+    "status": 0
+  },
+  {
+    "username": "admin006",
+    "password": "news@222",
+    "name": "李佩君",
+    "email": "pei.li@example.com",
+    "role": 2,
+    "status": 0
+  },
+  {
+    "username": "admin007",
+    "password": "sys@333",
+    "name": "張國安",
+    "email": "kuo.chang@example.com",
+    "role": 0,
+    "status": 0
+  },
+  {
+    "username": "admin008",
+    "password": "prod@444",
+    "name": "許雅婷",
+    "email": "ya.hsu@example.com",
+    "role": 1,
+    "status": 1
+  },
+  {
+    "username": "admin009",
+    "password": "news@555",
+    "name": "周宗翰",
+    "email": "han.chou@example.com",
+    "role": 2,
+    "status": 0
+  },
+  {
+    "username": "admin010",
+    "password": "sys@666",
+    "name": "蕭怡君",
+    "email": "yi.hsiao@example.com",
+    "role": 0,
+    "status": 0
+  }
+]

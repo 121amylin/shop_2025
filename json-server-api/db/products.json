@@ -1,5 +1,112 @@
-{
-  "products": [
-    { "id": 1, "name": "Chocolate Cookie", "price": 50 }
-  ]
-}
+[
+  {
+    "productId": "P001",
+    "productName": "鳳梨酥禮盒",
+    "category": 3,
+    "flavor": 0,
+    "unitPrice": 420,
+    "productImage": "https://example.com/images/pineapple_box.jpg",
+    "description": "精選台灣土鳳梨製成的鳳梨酥，酸甜爽口，送禮自用兩相宜。",
+    "status": 0,
+    "productionDays": 3
+  },
+  {
+    "productId": "P002",
+    "productName": "手工杏仁餅乾",
+    "category": 0,
+    "flavor": 0,
+    "unitPrice": 180,
+    "productImage": "https://example.com/images/almond_cookie.jpg",
+    "description": "嚴選杏仁片手工烘焙，香氣濃郁、口感酥脆。",
+    "status": 0,
+    "productionDays": 2
+  },
+  {
+    "productId": "P003",
+    "productName": "草莓奶油蛋糕",
+    "category": 1,
+    "flavor": 1,
+    "unitPrice": 560,
+    "productImage": "https://example.com/images/strawberry_cake.jpg",
+    "description": "鬆軟海綿蛋糕搭配香甜草莓奶油，完美的甜蜜滋味。",
+    "status": 0,
+    "productionDays": 2
+  },
+  {
+    "productId": "P004",
+    "productName": "原味牛軋糖",
+    "category": 2,
+    "flavor": 0,
+    "unitPrice": 250,
+    "productImage": "https://example.com/images/nougat_original.jpg",
+    "description": "香濃奶香搭配杏仁粒，傳統手工製作的經典牛軋糖。",
+    "status": 0,
+    "productionDays": 4
+  },
+  {
+    "productId": "P005",
+    "productName": "巧克力脆餅",
+    "category": 0,
+    "flavor": 2,
+    "unitPrice": 150,
+    "productImage": "https://example.com/images/choco_cookie.jpg",
+    "description": "香濃可可風味與酥脆口感的絕妙結合。",
+    "status": 1,
+    "productionDays": 2
+  },
+  {
+    "productId": "P006",
+    "productName": "蜂蜜核桃蛋糕",
+    "category": 1,
+    "flavor": 0,
+    "unitPrice": 480,
+    "productImage": "https://example.com/images/honey_walnut_cake.jpg",
+    "description": "濃郁蜂蜜香氣與核桃顆粒交織出的豐富口感。",
+    "status": 0,
+    "productionDays": 3
+  },
+  {
+    "productId": "P007",
+    "productName": "草莓牛軋糖",
+    "category": 2,
+    "flavor": 1,
+    "unitPrice": 270,
+    "productImage": "https://example.com/images/strawberry_nougat.jpg",
+    "description": "粉紅草莓風味搭配Q彈口感，甜而不膩的幸福滋味。",
+    "status": 0,
+    "productionDays": 4
+  },
+  {
+    "productId": "P008",
+    "productName": "巧克力布朗尼蛋糕",
+    "category": 1,
+    "flavor": 2,
+    "unitPrice": 520,
+    "productImage": "https://example.com/images/choco_brownie.jpg",
+    "description": "濃郁可可與濕潤口感的經典布朗尼，巧克力控必吃。",
+    "status": 0,
+    "productionDays": 3
+  },
+  {
+    "productId": "P009",
+    "productName": "手工綜合餅乾禮盒",
+    "category": 3,
+    "flavor": 0,
+    "unitPrice": 390,
+    "productImage": "https://example.com/images/mix_cookie_box.jpg",
+    "description": "多種口味一次滿足，精美包裝適合各種節慶贈禮。",
+    "status": 0,
+    "productionDays": 3
+  },
+  {
+    "productId": "P010",
+    "productName": "原味奶香蛋糕",
+    "category": 1,
+    "flavor": 0,
+    "unitPrice": 450,
+    "productImage": "https://example.com/images/milk_cake.jpg",
+    "description": "綿密柔軟的蛋糕體，帶有淡淡奶香，是最經典的家常風味。",
+    "status": 0,
+    "productionDays": 2
+  }
+]

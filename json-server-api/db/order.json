@@ -1,5 +1,405 @@
-{
-  "orders": [
-    { "id": 1, "product": "Cookie", "quantity": 2 }
-  ]
-}
+[
+  {
+    "order_id": "ORD20251008001",
+    "created_at": "2025-10-08T10:25:00",
+    "order_status": 1,
+    "order_info": {
+      "customer_name": "王小明",
+      "customer_phone": "0912345678",
+      "customer_email": "ming@example.com",
+      "delivery_method": 1,
+      "delivery_address": "台北市中正區仁愛路一段100號",
+      "note": "",
+      "invoice_type": 1,
+      "payment_method": 1
+    },
+    "items": [
+      {
+        "productId": "P001",
+        "image": "/images/cake1.jpg",
+        "product_name": "草莓奶油蛋糕",
+        "variant": "6吋",
+        "quantity": 1,
+        "price": 680,
+        "subtotal": 680
+      }
+    ],
+    "total_amount": 680,
+    "production_info": {
+      "batch_no": "BATCH-A001",
+      "expected_completion_date": "2025-10-09",
+      "actual_completion_date": null,
+      "production_status": 1
+    },
+    "shipping_info": {
+      "tracking_no": null,
+      "shipped_at": null,
+      "expected_delivery_at": null,
+      "delivered_at": null,
+      "logistics_company": null,
+      "delivery_status": 1
+    }
+  },
+  {
+    "order_id": "ORD20251008002",
+    "created_at": "2025-10-07T14:40:00",
+    "order_status": 2,
+    "order_info": {
+      "customer_name": "陳怡君",
+      "customer_phone": "0922555777",
+      "customer_email": "yijun@example.com",
+      "delivery_method": 2,
+      "delivery_address": "台中市西區公益路88號",
+      "note": "自取請通知",
+      "invoice_type": 1,
+      "payment_method": 1
+    },
+    "items": [
+      {
+        "productId": "P002",
+        "image": "/images/cake2.jpg",
+        "product_name": "抹茶紅豆蛋糕",
+        "variant": "8吋",
+        "quantity": 1,
+        "price": 850,
+        "subtotal": 850
+      }
+    ],
+    "total_amount": 850,
+    "production_info": {
+      "batch_no": "BATCH-A002",
+      "expected_completion_date": "2025-10-08",
+      "actual_completion_date": null,
+      "production_status": 2
+    },
+    "shipping_info": {
+      "tracking_no": null,
+      "shipped_at": null,
+      "expected_delivery_at": null,
+      "delivered_at": null,
+      "logistics_company": null,
+      "delivery_status": 1
+    }
+  },
+  {
+    "order_id": "ORD20251008003",
+    "created_at": "2025-10-06T11:20:00",
+    "order_status": 3,
+    "order_info": {
+      "customer_name": "林俊宏",
+      "customer_phone": "0988777666",
+      "customer_email": "junhong@example.com",
+      "delivery_method": 1,
+      "delivery_address": "新竹市東區光復路二段56號",
+      "note": "",
+      "invoice_type": 1,
+      "payment_method": 1
+    },
+    "items": [
+      {
+        "productId": "P021",
+        "image": "/images/cake3.jpg",
+        "product_name": "芒果慕斯蛋糕",
+        "variant": "6吋",
+        "quantity": 2,
+        "price": 720,
+        "subtotal": 1440
+      }
+    ],
+    "total_amount": 1440,
+    "production_info": {
+      "batch_no": "BATCH-A003",
+      "expected_completion_date": "2025-10-07",
+      "actual_completion_date": "2025-10-07",
+      "production_status": 3
+    },
+    "shipping_info": {
+      "tracking_no": null,
+      "shipped_at": null,
+      "expected_delivery_at": null,
+      "delivered_at": null,
+      "logistics_company": null,
+      "delivery_status": 1
+    }
+  },
+  {
+    "order_id": "ORD20251008004",
+    "created_at": "2025-10-05T09:15:00",
+    "order_status": 4,
+    "order_info": {
+      "customer_name": "張文婷",
+      "customer_phone": "0933444555",
+      "customer_email": "ting@example.com",
+      "delivery_method": 1,
+      "delivery_address": "高雄市鼓山區美術東二路123號",
+      "note": "希望周末到貨",
+      "invoice_type": 1,
+      "payment_method": 1
+    },
+    "items": [
+      {"productId": "P301",
+        "image": "/images/cake4.jpg",
+        "product_name": "巧克力布朗尼蛋糕",
+        "variant": "8吋",
+        "quantity": 1,
+        "price": 780,
+        "subtotal": 780
+      }
+    ],
+    "total_amount": 780,
+    "production_info": {
+      "batch_no": "BATCH-A004",
+      "expected_completion_date": "2025-10-06",
+      "actual_completion_date": "2025-10-06",
+      "production_status": 3
+    },
+    "shipping_info": {
+      "tracking_no": "TC123456789",
+      "shipped_at": "2025-10-06",
+      "expected_delivery_at": "2025-10-09",
+      "delivered_at": null,
+      "logistics_company": "黑貓宅急便",
+      "delivery_status": 2
+    }
+  },
+  {
+    "order_id": "ORD20251008005",
+    "created_at": "2025-10-05T13:45:00",
+    "order_status": 5,
+    "order_info": {
+      "customer_name": "李政峰",
+      "customer_phone": "0966888999",
+      "customer_email": "feng@example.com",
+      "delivery_method": 1,
+      "delivery_address": "台南市中西區民族路100號",
+      "note": "",
+      "invoice_type": 1,
+      "payment_method": 1
+    },
+    "items": [
+      {"productId": "P211",
+        "image": "/images/cake5.jpg",
+        "product_name": "藍莓乳酪蛋糕",
+        "variant": "6吋",
+        "quantity": 1,
+        "price": 650,
+        "subtotal": 650
+      }
+    ],
+    "total_amount": 650,
+    "production_info": {
+      "batch_no": "BATCH-A005",
+      "expected_completion_date": "2025-10-06",
+      "actual_completion_date": "2025-10-06",
+      "production_status": 3
+    },
+    "shipping_info": {
+      "tracking_no": "TC123456790",
+      "shipped_at": "2025-10-06",
+      "expected_delivery_at": "2025-10-09",
+      "delivered_at": "2025-10-08T17:00:00",
+      "logistics_company": "宅配通",
+      "delivery_status": 4
+    }
+  },
+  {
+    "order_id": "ORD20251008006",
+    "created_at": "2025-10-04T15:00:00",
+    "order_status": 6,
+    "order_info": {
+      "customer_name": "何美雯",
+      "customer_phone": "0955333222",
+      "customer_email": "meiwen@example.com",
+      "delivery_method": 1,
+      "delivery_address": "桃園市中壢區中華路二段90號",
+      "note": "取消原因：臨時改期",
+      "invoice_type": 1,
+      "payment_method": 1
+    },
+    "items": [
+      {"productId": "P081",
+        "image": "/images/cake6.jpg",
+        "product_name": "焦糖布丁蛋糕",
+        "variant": "6吋",
+        "quantity": 1,
+        "price": 560,
+        "subtotal": 560
+      }
+    ],
+    "total_amount": 560,
+    "production_info": {
+      "batch_no": "BATCH-A006",
+      "expected_completion_date": "2025-10-05",
+      "actual_completion_date": null,
+      "production_status": 1
+    },
+    "shipping_info": {
+      "tracking_no": null,
+      "shipped_at": null,
+      "expected_delivery_at": null,
+      "delivered_at": null,
+      "logistics_company": null,
+      "delivery_status": 1
+    }
+  },
+  {
+    "order_id": "ORD20251008007",
+    "created_at": "2025-10-03T10:00:00",
+    "order_status": 3,
+    "order_info": {
+      "customer_name": "陳柏任",
+      "customer_phone": "0922888999",
+      "customer_email": "boren@example.com",
+      "delivery_method": 2,
+      "delivery_address": "門市自取",
+      "note": "下午三點取",
+      "invoice_type": 1,
+      "payment_method": 1
+    },
+    "items": [
+      {"productId": "P128",
+        "image": "/images/cake7.jpg",
+        "product_name": "蜂蜜戚風蛋糕",
+        "variant": "6吋",
+        "quantity": 2,
+        "price": 580,
+        "subtotal": 1160
+      }
+    ],
+    "total_amount": 1160,
+    "production_info": {
+      "batch_no": "BATCH-A007",
+      "expected_completion_date": "2025-10-04",
+      "actual_completion_date": "2025-10-04",
+      "production_status": 3
+    },
+    "shipping_info": {
+      "tracking_no": null,
+      "shipped_at": null,
+      "expected_delivery_at": null,
+      "delivered_at": null,
+      "logistics_company": null,
+      "delivery_status": 1
+    }
+  },
+  {
+    "order_id": "ORD20251008008",
+    "created_at": "2025-10-03T16:10:00",
+    "order_status": 4,
+    "order_info": {
+      "customer_name": "簡心儀",
+      "customer_phone": "0977888999",
+      "customer_email": "hsinyi@example.com",
+      "delivery_method": 1,
+      "delivery_address": "新北市永和區中山路100號",
+      "note": "請幫忙附蠟燭",
+      "invoice_type": 1,
+      "payment_method": 1
+    },
+    "items": [
+      {"productId": "P147",
+        "image": "/images/cake8.jpg",
+        "product_name": "檸檬塔",
+        "variant": "4入禮盒",
+        "quantity": 1,
+        "price": 480,
+        "subtotal": 480
+      }
+    ],
+    "total_amount": 480,
+    "production_info": {
+      "batch_no": "BATCH-A008",
+      "expected_completion_date": "2025-10-04",
+      "actual_completion_date": "2025-10-04",
+      "production_status": 3
+    },
+    "shipping_info": {
+      "tracking_no": "TC123456791",
+      "shipped_at": "2025-10-05",
+      "expected_delivery_at": "2025-10-08",
+      "delivered_at": null,
+      "logistics_company": "黑貓宅急便",
+      "delivery_status": 3
+    }
+  },
+  {
+    "order_id": "ORD20251008009",
+    "created_at": "2025-10-02T09:00:00",
+    "order_status": 5,
+    "order_info": {
+      "customer_name": "黃士倫",
+      "customer_phone": "0966777888",
+      "customer_email": "shilun@example.com",
+      "delivery_method": 1,
+      "delivery_address": "台南市永康區中山南路50號",
+      "note": "",
+      "invoice_type": 1,
+      "payment_method": 1
+    },
+    "items": [
+      {"productId": "P274",
+        "image": "/images/cake9.jpg",
+        "product_name": "鳳梨酥禮盒",
+        "variant": "12入",
+        "quantity": 1,
+        "price": 520,
+        "subtotal": 520
+      }
+    ],
+    "total_amount": 520,
+    "production_info": {
+      "batch_no": "BATCH-A009",
+      "expected_completion_date": "2025-10-03",
+      "actual_completion_date": "2025-10-03",
+      "production_status": 3
+    },
+    "shipping_info": {
+      "tracking_no": "TC123456792",
+      "shipped_at": "2025-10-04",
+      "expected_delivery_at": "2025-10-07",
+      "delivered_at": "2025-10-07T15:30:00",
+      "logistics_company": "宅配通",
+      "delivery_status": 4
+    }
+  },
+  {
+    "order_id": "ORD20251008010",
+    "created_at": "2025-10-01T11:00:00",
+    "order_status": 5,
+    "order_info": {
+      "customer_name": "洪雅筑",
+      "customer_phone": "0911999888",
+      "customer_email": "yachu@example.com",
+      "delivery_method": 1,
+      "delivery_address": "台中市北屯區文心路三段200號",
+      "note": "附生日卡片",
+      "invoice_type": 1,
+      "payment_method": 1
+    },
+    "items": [
+      {"productId": "P066",
+        "image": "/images/cake10.jpg",
+        "product_name": "提拉米蘇蛋糕",
+        "variant": "8吋",
+        "quantity": 1,
+        "price": 790,
+        "subtotal": 790
+      }
+    ],
+    "total_amount": 790,
+    "production_info": {
+      "batch_no": "BATCH-A010",
+      "expected_completion_date": "2025-10-02",
+      "actual_completion_date": "2025-10-02",
+      "production_status": 3
+    },
+    "shipping_info": {
+      "tracking_no": "TC123456793",
+      "shipped_at": "2025-10-03",
+      "expected_delivery_at": "2025-10-06",
+      "delivered_at": "2025-10-06T16:00:00",
+      "logistics_company": "黑貓宅急便",
+      "delivery_status": 4
+    }
+  }
+]
